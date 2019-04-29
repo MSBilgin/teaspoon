@@ -6,10 +6,10 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 dependencies {
-    compile deps.aspectjrt
-    compile project(':teaspoon-annotations')
+    implementation deps.aspectjrt
+    implementation project(':teaspoon-annotations')
 
-    testCompile deps.junit
+    testImplementation deps.junit
 }
 
 android {
